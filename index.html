@@ -10,15 +10,26 @@
         <div id="app-wrapper">
             <h2>Welcome to Password Creator</h2>
             <div id="character-choices-wrapper">
-                <p>Here are teh choices</p>
+                <p>Choose the appropriate settings for your password: </p>
+                <div id="check-box-container">
+                    <label class="checkboxs"> Uppercase A-Z: <input class="checkbox-spacing" type="checkbox" id="A-Z"/></label>
+                    <label class="checkboxs"> Lowercase a-z: <input class="checkbox-spacing" type="checkbox" id="a-z"/></label>
+                    <label class="checkboxs"> Numbers 0-9: <input class="checkbox-spacing" type="checkbox" id="A-Z"/></label>
+                    <label class="checkboxs"> Special Characters: <input class="checkbox-spacing" type="checkbox" id="A-Z"/></label>
+                </div>
+                <div id="slider">
+                    <label for="lengthSlider">Password Length: <span id="lengthValue">12</span></label>
+                    <input type="range" id="lengthSlider" min="4" max="32" value="12" />
+                </div>
             </div>
-            <div id="slider"></div>
-            <div id="redo"></div>
-            <div id="password-bar"></div>
+            <div id="password-bar">
+                <label id="Password">Password: <span id="new-password">xxx</span></label>
+            </div>
+            <button id="generate">Generate New Password</button>
         </div>
-        <div id="wrapper"></div>
-        <div id="button"></div>
-        <div id="accents"></div>
+        <footer id="app-footer">
+            <p>© Sebastian's Password Creator</p>
+        </footer> 
     </body>
     <script src="app.js"></script>
 </html>
