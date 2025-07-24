@@ -39,7 +39,7 @@ h2:hover {
 }
 
 #character-choices-wrapper{
-    width: 85%;
+    width: 60%;
     height: auto;
     background: #2A2A2C;
     display: flex;
@@ -146,7 +146,7 @@ span {
 }
 
 #password-bar {
-    width: 85%;
+    width: 60%;
     height: 10px;
     background: #2A2A2C;
     display: flex;
@@ -160,7 +160,7 @@ span {
     font-size: large;
     margin: 10px;
     border-radius: 50px;
-    width: 60%;
+    width: 45%;
     height: 35px;
     border-color:#9672d4;
 }
