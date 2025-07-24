@@ -1,0 +1,18 @@
+* {
+    
+}
+body {
+    background-color: #1e1e2d;
+}
+
+#wrapper { 
+    border: solid #343443 3px;
+    height: 250px;
+    width: 250px;
+}
+
+#button { 
+    border: solid #7FDBDA 3px;
+    height: 250px;
+    width: 250px;
+}
